@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Khand:wght@300;400;500;600;700&family=Sonsie+One&display=swap');
+
+.body-home{
+    width: 100%; 
+    background: radial-gradient(circle at bottom right, rgb(103, 68, 206) 0%, rgb(90, 89, 168) 20%, rgb(53, 50, 116) 40%, rgb(46, 35, 113) 60%, rgb(23, 10, 78) 80%, rgb(8, 1, 36) 100%);
+}
+.content {
+    display: flex;
+}
+.full-h{
+    font-family: 'Khand, sans-serif';
+    font-size: 30px;
+    color: rgb(178, 207, 233);
+    padding-top: 35px;
+    margin-left: 170px;
+}
+.ritika-p{
+    font-family: "Honk", system-ui;
+    color: white;
+    font-size: 100px;
+    top: 0px;
+    margin-left: 170px;
+    margin-top: -30px;
+}
+.bansal-p{
+        font-family: "Honk", system-ui;
+        color: white;
+        font-size: 100px;
+        margin-top: -90px;
+        margin-left: 210px;
+}
+.web-h{
+    font-family: 'Khand, sans-serif';
+    font-size: 60px;
+    color: rgb(178, 207, 233);
+    margin-top: -30px;
+    margin-left: 240px;
+}
+
+.my-photo{
+    margin-left: 180px;
+    margin-top: -10px;
+    width: 600px;
+}

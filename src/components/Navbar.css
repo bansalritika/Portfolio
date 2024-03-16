@@ -1,0 +1,60 @@
+.body {
+    width: 100%; 
+    height: 160px;
+    background: radial-gradient(circle at bottom right, rgb(103, 68, 206) 0%, rgb(90, 89, 168) 20%, rgb(53, 50, 116) 40%, rgb(46, 35, 113) 60%, rgb(23, 10, 78) 80%, rgb(8, 1, 36) 100%);
+}
+
+.logo-image {
+    width: 10%;
+    margin: 20px 90px;
+}
+
+.Navbar {
+    display: flex;
+    width: 100%; /* Take full width of the screen */
+    z-index: 1000; 
+}
+
+ .round-navbar {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 50%;
+        top: 40px;
+        transform: translateX(-50%);
+        border-radius: 50px ; 
+        border: 1px solid #9061e7;
+        background: radial-gradient(#1a024d, #100d44);
+        padding: 18px 15px 15px 15px;
+        box-sizing: border-box; 
+ }
+ 
+
+.round-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.round-navbar li {
+    display: inline-block;
+}
+
+.round-navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 23px 10px 23px 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.round-navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border:  1px solid #9061e7;
+}
+
+.project-logo {
+    width: 50px;
+    height: 50px;
+}
