@@ -9,7 +9,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <>
-    <div className="body">
+    <div>
        
         <nav className="Navbar">
         <img className='logo-image' src='logo.png'/>
